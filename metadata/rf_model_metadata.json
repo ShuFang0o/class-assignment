@@ -1,0 +1,8 @@
+{
+    "name": "random_forest_airbnb",
+    "metrics": "mse:0.0490, r2:0.7637",
+    "version": 1,
+    "registration_date": "2025-06-10T07:44:44.542578",
+    "model": "rf_model.joblib",
+    "features": "rf_features.joblib"
+}
