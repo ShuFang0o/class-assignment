@@ -7,8 +7,8 @@ import numpy as np
 from joblib import load
 
 # Load model and features
-MODEL_PATH = "rf_model.joblib"
-FEATURES_PATH = "rf_features.joblib"
+MODEL_PATH = "models/rf_model.joblib"
+FEATURES_PATH = "models/rf_features.joblib"
 
 model = load(MODEL_PATH)
 feature_names = load(FEATURES_PATH)
